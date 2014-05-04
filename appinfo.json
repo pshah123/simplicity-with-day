@@ -1,119 +1,121 @@
 {
-  "uuid": "1f0b0701-cc8f-47ec-86e7-7181397f9a8e",
-  "shortName": "Simple Weather",
-  "longName": "Simplicity inspired with weather",
-  "companyName": "John Flanagan",
-  "versionCode": 1,
-  "versionLabel": "1.0.0",
-  "capabilities": [ "configurable" ],
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {
-    "icon": 0,
-    "temperature": 1,
-    "invert_color": 2
-  },
-  "resources": {
-    "media": [
-      {
-        "menuIcon": true,
-        "type": "png",
-        "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon_simplicity.png"
-      },
-      {
-        "type": "png",
-        "name": "CLEAR_DAY",
-        "file": "images/2.png"
-      },
-      {
-        "type": "png",
-        "name": "CLEAR_NIGHT",
-        "file": "images/3.png"
-      },
-      {
-        "type": "png",
-        "name": "WINDY",
-        "file": "images/6.png"
-      },
-      {
-        "type": "png",
-        "name": "COLD",
-        "file": "images/7.png"
-      },
-      {
-        "type": "png",
-        "name": "PARTLY_CLOUDY_DAY",
-        "file": "images/8.png"
-      },
-      {
-        "type": "png",
-        "name": "PARTLY_CLOUDY_NIGHT",
-        "file": "images/9.png"
-      },
-      {
-        "type": "png",
-        "name": "HAZE",
-        "file": "images/13.png"
-      },
-      {
-        "type": "png",
-        "name": "CLOUD",
-        "file": "images/14.png"
-      },
-      {
-        "type": "png",
-        "name": "RAIN",
-        "file": "images/18.png"
-      },
-      {
-        "type": "png",
-        "name": "SNOW",
-        "file": "images/23.png"
-      },
-      {
-        "type": "png",
-        "name": "HAIL",
-        "file": "images/24.png"
-      },
-      {
-        "type": "png",
-        "name": "CLOUDY",
-        "file": "images/25.png"
-      },
-      {
-        "type": "png",
-        "name": "STORM",
-        "file": "images/27.png"
-      },
-      {
-        "type": "png",
-        "name": "NA",
-        "file": "images/45.png"
-      },
-      {
-        "type": "png",
-        "name": "NO_BT",
-        "file": "images/no_bluetooth.png"
-      },
-      {
-        "type": "font",
-        "name": "FONT_ROBOTO_CONDENSED_21",
-        "file": "fonts/Roboto-Condensed.ttf"
-      },
-      {
-        "characterRegex": "[:0-9]",
-        "type": "font",
-        "name": "FONT_ROBOTO_BOLD_SUBSET_49",
-        "file": "fonts/Roboto-Bold.ttf"
-      },
-      {
-        "characterRegex": "[:A-Z]",
-        "type": "font",
-        "name": "METEOCONS_38",
-        "file": "fonts/meteocons.ttf"
-      }
-    ]
-  }
+    "longName": "Simplicity inspired with weather",
+    "companyName": "John Flanagan",
+    "versionLabel": "1.0.0",
+    "watchapp": {
+        "watchface": true
+    },
+    "appKeys": {
+        "icon": 0,
+        "temperature": 1,
+        "invert_color": 2
+    },
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/meteocons.ttf",
+                "name": "METEOCONS_38",
+                "type": "font",
+                "characterRegex": "[:A-Z]"
+            },
+            {
+                "file": "fonts/Roboto-Bold.ttf",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_49",
+                "type": "font",
+                "characterRegex": "[:0-9]"
+            },
+            {
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_21",
+                "type": "font"
+            },
+            {
+                "file": "images/no_bluetooth.png",
+                "name": "NO_BT",
+                "type": "png"
+            },
+            {
+                "file": "images/45.png",
+                "name": "NA",
+                "type": "png"
+            },
+            {
+                "file": "images/27.png",
+                "name": "STORM",
+                "type": "png"
+            },
+            {
+                "file": "images/25.png",
+                "name": "CLOUDY",
+                "type": "png"
+            },
+            {
+                "file": "images/24.png",
+                "name": "HAIL",
+                "type": "png"
+            },
+            {
+                "file": "images/23.png",
+                "name": "SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/18.png",
+                "name": "RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/14.png",
+                "name": "CLOUD",
+                "type": "png"
+            },
+            {
+                "file": "images/13.png",
+                "name": "HAZE",
+                "type": "png"
+            },
+            {
+                "file": "images/9.png",
+                "name": "PARTLY_CLOUDY_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/8.png",
+                "name": "PARTLY_CLOUDY_DAY",
+                "type": "png"
+            },
+            {
+                "file": "images/7.png",
+                "name": "COLD",
+                "type": "png"
+            },
+            {
+                "file": "images/6.png",
+                "name": "WINDY",
+                "type": "png"
+            },
+            {
+                "file": "images/3.png",
+                "name": "CLEAR_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/2.png",
+                "name": "CLEAR_DAY",
+                "type": "png"
+            },
+            {
+                "file": "images/menu_icon_simplicity.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png",
+                "menuIcon": true
+            }
+        ]
+    },
+    "uuid": "1f0b0701-cc8f-47ec-86e7-7181397f9a8e",
+    "capabilities": [
+        "configurable"
+    ],
+    "shortName": "Simple Weather",
+    "versionCode": 1
 }
